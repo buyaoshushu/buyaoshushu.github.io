@@ -1,6 +1,7 @@
 # Site settings
 title: 不要叔叔的技术宅基地
 email: kerwinzheng@126.com
+permalink: /:year/:month/:day/:title
 description: > # this means to ignore newlines until "baseurl:"
   企鹅550970256
 baseurl: "" # the subpath of your site, e.g. /blog/
