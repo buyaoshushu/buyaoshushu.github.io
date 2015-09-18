@@ -1,3 +1,10 @@
+---
+layout: page
+title: 标签
+header: Posts By Category
+group: navigation
+---
+
 {% for tag in site.tags %}
     <a href="/show_by_tag.html?tag={{ tag[0] }}"> {{ tag[0] }}</a>
 {% endfor %}
