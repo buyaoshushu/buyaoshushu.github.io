@@ -1,11 +1,21 @@
 ---
 layout : page
-title : ttt
+title : 标签
 ---
+<h2 id="title">
+</h2>
+<ul id="tag">
+
+</ul>
 <script>
 var dataStr = '{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date:"%d/%m/%Y"}}"}{% endfor %}]{% endfor %} }',
     data = JSON.parse(dataStr);
-    curTag = $.query.get("tag");
+var uri=new URI(document.location.href)    
+curTag = uri.query(true).tag;
+$("#title").append(curTag);
     archieves = data[curTag];
+    $("#tag").append(archieves);
+    for(var i=0;i<archieves.length;i++){
+       $("#tag").append("<li>"+archieves[i].date+"<a href="+archieves[i].url+">"+archieves[i].title+"</a></li>")
+    }
 </script>
-

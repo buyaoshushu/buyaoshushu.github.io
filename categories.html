@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 分类
+litle: 分类
 header: Posts By Category
 group: navigation
 ---
@@ -11,7 +11,7 @@ var dataStr = '{ {% for cat in site.categories %}{% if cat[0] != site.categories
     archieves = data[curTag];
 </script>
 {% for category in site.categories %}
-<h2>{{ category | first }}</h2>
+<span>{{ category | first }}</span>
 </span>{{ category | last | size }}</span>
 <ul class="arc-list">
     {% for post in category.last %}
