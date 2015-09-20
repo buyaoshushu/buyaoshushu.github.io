@@ -11,3 +11,5 @@ github_username: buyaoshushu
 # Build settings
 markdown: kramdown
 production_url: "http://blog.buyaoshushu.com"
+#paginate: 15
+#paginate_path: "page:num"

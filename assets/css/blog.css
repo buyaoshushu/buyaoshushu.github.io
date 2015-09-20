@@ -5,6 +5,10 @@
 	font-size:25px;
 	color: #563d7c;
 }
+.byss-navbar{
+	margin-bottom:1px
+}
+
 .byss-navbar .navbar-nav>.active>a, .byss-navbar .navbar-nav>.active>a:hover, .byss-navbar .navbar-nav>li>a:hover{
 	    color: #463265;
     background-color: #f9f9f9;
