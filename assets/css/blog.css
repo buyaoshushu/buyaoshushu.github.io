@@ -2,8 +2,8 @@
     font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
 .byss-navbar-sitetitle{
-	
 	font-size:25px;
+	color: #563d7c;
 }
 .byss-navbar .navbar-nav>.active>a, .byss-navbar .navbar-nav>.active>a:hover, .byss-navbar .navbar-nav>li>a:hover{
 	    color: #463265;
