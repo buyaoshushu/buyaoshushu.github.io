@@ -10,4 +10,4 @@ url: "http://blog.buyaoshushu.com" # the base hostname & protocol for your site
 github_username: buyaoshushu 
 # Build settings
 markdown: kramdown
-production_url: "http://buyaoshushu.github.io"
+production_url: "http://blog.buyaoshushu.com"
