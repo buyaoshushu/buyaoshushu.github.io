@@ -7,7 +7,7 @@ tags: [掌心泥巴,教程,游戏]
 ---
 先看一眼界面吧,泥巴(或者叫MUD)类游戏,都稍微有点入门难度,因为概念太多.
 
-![键码图](../images/zhangxinmud-screenshot.png)
+![键码图](/images/zhangxinmud-screenshot.png)
 
 一个区域一个区域的讲
 ###1.场景介绍
