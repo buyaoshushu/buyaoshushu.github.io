@@ -7,8 +7,11 @@ tags: [ linux,学习笔记,常用命令 ]
 ---
 
 # Linux
+
 ###文件搜索
+
 ####搜索文件
+
 {% highlight bash %}
 #in ubuntu
 mlocate
@@ -185,7 +188,7 @@ wesnoth 韦诺之战
 Humble Store? 
 steam
 
-###建模流程绘图
+##建模流程绘图
 yEd
 umbrello
 
@@ -207,3 +210,5 @@ lxappearance
 
 find /medit/others -type f -name "*.txt" | xargs grep "天道"
 
+###终端乱码
+luit -encoding gbk telnet 123.125.116.212 6666 
