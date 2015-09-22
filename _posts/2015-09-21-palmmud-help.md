@@ -5,6 +5,9 @@ category: game
 tags: [掌心泥巴,教程,游戏]
 
 ---
+放上下载连接[ios](http://www.palmmud.com/share.php?direct=ios_download&sharedBy=buyaoshushu
+)和[android](http://www.palmmud.com/share.php?direct=android_download&sharedBy=buyaoshushu)
+
 先看一眼界面吧,泥巴(或者叫MUD)类游戏,都稍微有点入门难度,因为概念太多.
 
 ![键码图](/images/zhangxinmud-screenshot.png)
