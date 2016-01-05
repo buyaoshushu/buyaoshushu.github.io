@@ -207,6 +207,9 @@ pacman -Qtd | awk '{print $1}' | xargs -t yaourt -R
 ###GTK主题管理
 lxappearance
 
+###更新ＤＮＳ
+sudo systemctl restart nscd.service
+
 
 find /medit/others -type f -name "*.txt" | xargs grep "天道"
 
