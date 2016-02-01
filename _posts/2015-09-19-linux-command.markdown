@@ -214,4 +214,7 @@ sudo systemctl restart nscd.service
 find /medit/others -type f -name "*.txt" | xargs grep "天道"
 
 ###终端乱码
-luit -encoding gbk telnet 123.125.116.212 6666 
+luit -encoding gbk telnet 123.125.116.212 6666
+
+###搜狗输入法皮肤安装
+使用sogou-qimpanel打开皮肤文件
