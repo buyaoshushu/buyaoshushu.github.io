@@ -14,4 +14,4 @@ production_url: "http://buyaoshushu.com"
 #paginate: 15
 #paginate_path: "page:num"
 kramdown:
-   input:GFM
+   input: GFM
