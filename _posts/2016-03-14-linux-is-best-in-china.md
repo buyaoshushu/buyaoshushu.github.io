@@ -22,4 +22,6 @@ tags: [linux]
 * linux的路会很长，以后的事，谁也说不准。就好像5年，Android就普及了一样。之前的10年都是等待。
 
 
-
+```javascript
+var a=100;
+```
